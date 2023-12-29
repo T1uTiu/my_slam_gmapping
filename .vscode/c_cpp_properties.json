@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/tiutiu/ros_ws/install/interfaces/include/**",
+                "/home/tiutiu/ros_ws/install/examples_rclcpp_cbg_executor/include/**",
+                "/opt/ros/humble/include/**",
+                "/home/tiutiu/my_slam_gmapping/src/laser_odometry/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/csm/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
